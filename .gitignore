@@ -1,5 +1,5 @@
-timer.py
+/timer.py
 .gitignore
-.git
+*.git
 *.pyc
 *~
