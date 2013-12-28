@@ -1,4 +1,6 @@
 CommandLine-Timer
 =================
 
-building on python timer script with CmdI() module
+building on python timer script with Cmd() module
+
+This script works.
