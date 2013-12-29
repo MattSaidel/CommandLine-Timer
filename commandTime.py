@@ -1,11 +1,12 @@
-import time
+#!/usr/bin/env python
+
 import sys
 import cmd
 
-class startTime(cmd.Cmd):
+class StartTime(cmd.Cmd):
 	"""Python timer from the command line"""
 
-	def do_startTime(self, minutes):
+	def do_start_time(self, minutes):
 		if minutes:
 			minutes = float(minutes)
 			start_time = time.time()
